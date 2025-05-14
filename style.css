@@ -1,0 +1,23 @@
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#animateButton {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#animatedBox {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px auto;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+.animate {
+    transform: scale(1.5);
+    background-color: blue;
+}
